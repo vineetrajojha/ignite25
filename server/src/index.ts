@@ -8,6 +8,8 @@ import teamRoutes from './routes/team';
 // Load environment variables
 dotenv.config();
 
+console.log("this should be working")
+
 // Initialize express app
 const app = express();
 

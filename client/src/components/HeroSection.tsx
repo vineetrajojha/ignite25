@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import logo1 from "../assets/iilm-d.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 
@@ -9,15 +10,35 @@ const HeroSection = () => {
         
         {/* Logo Image */}
         <img 
+  src={logo1} 
+  alt="Ignite Logo" 
+  className="mx-auto mt-20 w-52 sm:w-64 md:w-80 lg:w-96 xl:w-[450px] mb-1" 
+/>
+<img 
   src={logo} 
   alt="Ignite Logo" 
-  className="mx-auto w-60 sm:w-72 md:w-96 lg:w-[400px] xl:w-[500px] mb-4 animate-pulse drop-shadow-lg" 
+  className="mx-auto mt-1 w-52 sm:w-64 md:w-80 lg:w-96 xl:w-[450px] animate-pulse drop-shadow-lg" 
 />
+{/* <p className="-mt-4 max-w-md mx-auto text-base sm:text-lg md:-mt-3 md:text-[26px] text-gray-300">
+  <span className="pb-1 inline-block">Igniting Minds,</span> 
+  Illuminating Futures
+</p> */}
+
+
+
+
+
+
 
     
-<p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-2 md:text-[42px] text-gray-300">
+{/* <p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-2 md:text-[42px] text-gray-300">
   <span className="pb-2 inline-block">Igniting Minds,</span> <br />
   Illuminating Futures
+</p> */}
+
+<p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-2 md:text-[30px] text-gray-300">
+  <span className="pb-2 inline-block">3rd March &</span> 4th March 2025
+ 
 </p>
 
 

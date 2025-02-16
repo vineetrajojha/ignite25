@@ -6,7 +6,6 @@ const Card = ({title, imgLink} : {title: string, imgLink: string}) => {
         {title}
       </div>
     </div>
-    // aa
   )
 }
 

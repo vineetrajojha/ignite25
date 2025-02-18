@@ -38,7 +38,6 @@ const HeroSection = () => {
 
 <p className="mt-3 max-w-md mx-auto text-base sm:text-lg md:mt-2 md:text-[30px] text-gray-300">
   <span className="pb-2 inline-block">3rd March &</span> 4th March 2025
- 
 </p>
 
 
@@ -46,13 +45,14 @@ const HeroSection = () => {
         
         
         <div className="mt-5 sm:mt-12">
-          <button
-            type="button"
-            className="bg-white text-black border border-gray-300 mt-0 px-5 py-2 text-base font-medium rounded-full min-w-[100px] shadow-md hover:bg-gray-200 transition-all duration-300"
+        <button
+  type="button"
+  onClick={() => window.open("https://forms.gle/bbFkMbajhYQTvH7q9", "_blank")}
+  className="bg-white text-black border border-gray-300 mt-0 px-5 py-2 text-base font-medium rounded-full min-w-[100px] shadow-md hover:bg-gray-200 transition-all duration-300"
+>
+  Register Now
+</button>
 
-          >
-            Register Now
-          </button>
         </div>
       </div>
     

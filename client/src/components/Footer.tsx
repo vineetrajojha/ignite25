@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <hr className="my-6 border-gray-300 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-300 sm:text-center">© 2025 <a href="https://flowbite.com/" className="hover:underline">Ignite</a>. All Rights Reserved.
+          <span className="text-sm text-gray-300 sm:text-center">© 2025 <a href="https://flowbite.com/" className="hover:underline">IILM Ignite Techfest</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-300 hover:text-white">

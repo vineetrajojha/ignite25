@@ -22,6 +22,8 @@ const Workshop = () => {
     { title: "IOT & AI Idea Challenge", imgLink: Event7 },
   ];
 
+  const registrationLink = "https://forms.gle/bbFkMbajhYQTvH7q9";
+
   return (
     <div className="px-4 py-2 text-center">
       <h1 className="text-5xl font-extrabold text-white tracking-tight mb-4">
@@ -46,15 +48,17 @@ const Workshop = () => {
         >
           {events.map((event, index) => (
             <SwiperSlide key={index}>
-              <div className="relative group">
-               
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-transparent via-[#0F3019] to-transparent opacity-80 blur-xl animate-spin-slow"></div>
-                
-                {/* Card */}
-                <div className="relative z-10">
-                  <Card title={event.title} imgLink={event.imgLink} />
+              <a href={registrationLink} target="_blank" rel="noopener noreferrer" className="block">
+                <div className="relative group">
+                  
+                  <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-transparent via-[#0F3019] to-transparent opacity-80 blur-xl animate-spin-slow"></div>
+                  
+                  {/* Card */}
+                  <div className="relative z-10">
+                    <Card title={event.title} imgLink={event.imgLink} />
+                  </div>
                 </div>
-              </div>
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>

@@ -14,6 +14,7 @@ const Navbar = () => {
           <button
             type="button"
             className="bg-white text-black border border-gray-300 mt-0 px-5 py-2 text-base font-medium rounded-full min-w-[100px] shadow-md hover:bg-gray-200 transition-all duration-300"
+            onClick={() => window.open("https://forms.gle/bbFkMbajhYQTvH7q9", "_blank")}
           >
             Register Now
           </button>
@@ -58,7 +59,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href=""
                 className="block py-2 px-3 text-white rounded-sm md:hover:text-blue-700 md:p-0 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
               >
                 About
@@ -69,7 +70,15 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 rounded-sm md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
               >
-                Services
+                Events
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 px-3 rounded-sm md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+              >
+                Gallery
               </a>
             </li>
             <li>
@@ -80,8 +89,28 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
+            <li>
+  <a
+    href="https://drive.google.com/file/d/1cFpm3Cb66gpdoDzEI398XLRBjmokqoeH/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block py-2 px-3 rounded-sm md:p-0 md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
+  >
+    Brochure
+  </a>
+</li>
+
           </ul>
         </div>
+        <a
+  href="https://www.instagram.com/ignite_iilm?igsh=cTZsb3ZsaXF0dHk5"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white hover:text-gray-400 transition-colors duration-300"
+>
+  <i className="fab fa-instagram text-3xl"></i> {/* FontAwesome Instagram icon */}
+</a>
+
       </div>
     </nav>
   );

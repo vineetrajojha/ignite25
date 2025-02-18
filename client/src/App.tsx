@@ -7,6 +7,7 @@ import Workshop from "./components/Workshop";
 import Gallery from "./components/Gallery";
 import WorkshopTwo from "./components/WorkshopTwo";
 import WorkshopThree from "./components/WorshopThree";
+import Contact from "./components/Contact";
 
 function App() {
   console.log("this is working")
@@ -22,6 +23,7 @@ function App() {
         <WorkshopTwo />
         <WorkshopThree />
         <Gallery/>
+        <Contact />
         <Footer />
       </div>
     </div>

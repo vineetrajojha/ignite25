@@ -20,12 +20,12 @@ const WorkshopTwo = () => {
     { title: "Tech Gaming Competition", imgLink: Event12 },
     { title: "Tech Debate", imgLink: Event13 },
     { title: "Tech Quiz Competition", imgLink: Event14 },
-    
   ];
+
+  const registrationLink = "https://forms.gle/bbFkMbajhYQTvH7q9";
 
   return (
     <div className="px-4 py-2 text-center">
-    
       {/* Swiper Carousel */}
       <div className="max-w-7xl mx-auto mt-8">
         <Swiper
@@ -44,7 +44,9 @@ const WorkshopTwo = () => {
         >
           {events.map((event, index) => (
             <SwiperSlide key={index}>
-              <Card title={event.title} imgLink={event.imgLink} />
+              <a href={registrationLink} target="_blank" rel="noopener noreferrer" className="block">
+                <Card title={event.title} imgLink={event.imgLink} />
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>
